@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+
+.app {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 32px;
+  background: linear-gradient(90deg, #31c98a 30%, #7738d6 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.section {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #CCC;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #7738d6;
+  background: linear-gradient(90deg, #31c98a 30%, #7738d6 70%);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #8141e1;
+  background: linear-gradient(90deg, #3add99 30%, #8542e9 70%);
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.wallet, .balance {
+  text-align: center;
+  color: #EEE;
+  margin: 10px auto;
+}
+
+.public-key, .balance-amount {
+  color: #31c98a;
+  font-size: 0.7em;
+}
+
+@media (min-width: 600px) {
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
